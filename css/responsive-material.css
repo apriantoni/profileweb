@@ -1,0 +1,89 @@
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+  
+  .item {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .header-left {
+    display: none;
+  }
+
+  .header-right{
+    float: center;
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+
+  .sign {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .item {
+    width: 100%;
+  }
+
+  .item-left{
+    width: 100%;
+  }
+
+  .item-right{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .item-right img{
+    width: 300px;
+    text-align: center;
+    float: center;
+  }
+
+  .info-side{
+    min-height: 350px;
+  }
+  
+  footer{
+    text-align: center;
+  }
+
+  .footer-left {
+    font-size: 16px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .footer-right {
+    float: right;
+    margin-right: 10px;
+    color: #707070;
+    text-align: left;
+    margin-top: -30px;
+    font-size: 14px;
+  }
+}
